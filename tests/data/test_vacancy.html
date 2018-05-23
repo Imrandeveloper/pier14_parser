@@ -1,0 +1,2705 @@
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0"/>
+  <meta name="google-signin-clientid" content="820704427758.apps.googleusercontent.com"/>
+  <meta name="google-signin-scope" content="https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/userinfo.profile"/>
+  <meta name="google-signin-cookiepolicy" content="single_host_origin"/>
+  <meta name="google-signin-callback" content="loginFinishedCallback"/>
+  <meta property="fb:app_id" content="170161056504167"/>
+  <meta property="fb:admins" content="100002164096972"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+
+
+
+
+  <link href="/assets/v2/hover.css" rel="stylesheet" media="all"/>
+
+  <link href="/assets/v2/base-min.css" media="all" rel="stylesheet" type="text/css"/>
+   <link href="/assets/v2/pure-min.css" media="all" rel="stylesheet" type="text/css"/>
+
+  <link href="/assets/v2/main.css?2018_01_11" rel="stylesheet"/>
+
+
+    <link href="/assets/v2/max_width_767.css" media="screen and (max-width: 767px)" rel="stylesheet" type="text/css"/>
+    <link href="/assets/v2/min_width_768.css" media="screen and (min-width: 768px)" rel="stylesheet" type="text/css"/>
+
+  <link href="/assets/v2/max_width_557.css" media="screen and (max-width: 557px)" rel="stylesheet" type="text/css"/>
+  <link href="/assets/v2/max_width_980.css" media="screen and (max-width: 980px)" rel="stylesheet" type="text/css"/>
+
+  <link rel="stylesheet" type="text/css" href="/assets/v2/tags.css"/>
+
+
+      <style>
+      .active_message_tab
+      {
+        background:#001b35;
+      }
+
+      </style>
+
+
+
+  <style>
+    /* background color changes */
+#pier14 .load_success
+{
+color: #FFF;
+    background:#001b35;
+    padding:8px;
+    display:block;
+}
+
+#pier14 .cancel-grey
+{
+	background:#999999;
+}
+
+#pier14 .btn-color{
+	background-color:  #001b35;
+}
+
+#pier14 .msg-count{
+	background-color: #001b35;
+	min-height: 20px;
+	min-width: 20px;
+	border-radius: 10px;
+	bottom: -9px;
+	right: -4px;
+}
+
+#pier14 .button{
+	border: none;
+	border-radius: 5px;
+	background-color: #001b35;
+	color: #fff;
+	padding: 5px 9px;
+}
+
+#pier14 .blue-box{
+	background-color: #001b35;
+	border-radius: 7px;
+	padding: 6px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+#pier14 .red_bar
+{
+background-color: #001b35;
+padding:4px;
+color:#FFF;
+}
+
+
+#pier14 .bar { background-color: #001b35; width:0%; height:23px; border-radius: 3px;  }
+
+#pier14 #progressBar {
+        width: 100%;
+        height: 22px;
+        border: 1px solid #111;
+        background-color: #FFF;
+        display: none;
+         border-radius: 3px;
+}
+
+#pier14 #progressBar div {
+        height: 100%;
+        color: #fff;
+        text-align: center;
+        line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+        width: 0;
+        background-color: #001b35;
+         border-radius: 3px;
+}
+
+#pier14 .blue
+{
+	background-color: #001b35;
+}
+
+#pier14 .btn-color{
+	background-color:  #001b35;
+}
+
+#pier14 .selectric {
+  background: #F5f5f5;
+  position: relative;
+  border-radius: 6px;
+}
+
+#pier14 .selectricOpen .selectric {
+   background: #F5f5f5;
+  z-index: 9999;
+}
+
+#pier14 li.current
+{
+	background: #001b35 !important;
+}
+
+#pier14 .input-background{
+	background: #F5f5f5;
+}
+
+#pier14 .orange-box-fail
+{
+	background: #001b35;
+}
+#pier14 .css_page_up_arrow
+{
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid #001b35;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  cursor: pointer;
+}
+
+#pier14 .css_page_down_arrow
+{
+	  width: 0;
+  height: 0;
+  border-top: 5px solid #001b35;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  right: 2px;
+  top: 16px;
+}
+
+#pier14 .css_up_arrow
+{
+    width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid #001b35;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  right: 5px;
+  top: 0px;
+  cursor: pointer;
+}
+
+#pier14 .css_down_arrow
+{
+    width: 0;
+  height: 0;
+  border-top: 5px solid #001b35;
+  border-bottom: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  position: absolute;
+  right: 5px;
+  top: 14px;
+  cursor: pointer;
+}
+
+#pier14 .toggle-arrow{
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid #001b35;
+	top: 10px;
+	right: 4px;
+}
+
+
+#pier14 .fail
+{
+	background: #001b35;
+	color:#FFF;
+	padding:8px;
+	display:block;
+}
+
+/* font color changes */
+
+#pier14 .title-color {
+	color: #001b35;
+}
+
+#pier14 .job_search_job_title {
+	font-weight: normal;
+}
+
+#pier14 .search_sort_category_title {
+	font-style:italic;
+	font-weight: normal;
+}
+
+#pier14 .text-color{
+	color: #474747;
+}
+
+#pier14 .color-bullet li:before {
+    /* For a round bullet */
+    content:'\2022';
+    /* For a square bullet */
+    /*content:'\25A0';*/
+    display: block;
+    position: relative;
+    max-width: 0px;
+    max-height: 0px;
+    left: -10px;
+    top: -0px;
+    color: #001b35;
+    font-size: 20px;
+}
+
+#pier14 .tooltip_style a
+{
+  color:#001b35;
+}
+
+#pier14 label.error
+{
+	color:#001b35;
+}
+
+#pier14 .is-today .pika-button {
+    color: #001b35;
+    font-weight: bold;
+}
+
+#pier14 .logo_span a
+{
+	text-decoration: none;
+	color:#001b35;
+}
+
+#pier14 .selectric .label {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 0px 0 0;
+  padding: 6px 6px;
+  font-size: 16px;
+  line-height: 14px;
+  color: #001b35;
+
+}
+
+#pier14 .orange-background {
+  background-color: #001b35;
+
+}
+
+#pier14 .cancel-grey
+{
+	background:#999999;
+}
+
+
+
+#pier14 .demo_color
+{
+  color: #001b35;
+}
+
+#pier14 #sub_accounts_wrapper .selectric .label {
+    color: #474747 !important;
+    padding-left: 0px;
+    font-size: 18px;
+} .pier14_bg {
+        background: url(https://s3-eu-west-1.amazonaws.com/jacando-user-assets/partner_bgs/);
+        top: -130px;
+        background-position: left;
+        background-repeat: no-repeat !important;
+        background-size: auto 100% !important;
+        -webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        height: calc(100% + 158px);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+#pier14 .pier14_color
+{
+  color: #001b35;
+}
+
+#pier14 #sub_accounts_wrapper .selectric .label {
+    color: #474747 !important;
+    padding-left: 0px;
+    font-size: 14px;
+}
+
+#pier14 .selectric .button
+{
+  display: none;
+}
+
+#pier14 .selectric .label
+{
+
+}
+  </style>
+
+
+    <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/jacando-user-assets/partner_fav_icons/pier14.ico" type="image/x-icon"/>
+
+  <script src="/assets/v2/jquery-2.1.1.min.js" type="text/javascript"/>
+
+
+
+
+
+                          <meta property="og:image" content="http://s3-eu-west-1.amazonaws.com/jacando-user-assets/profile-pic/large/1465467193_170.png"/>
+                          <meta property="og:image:url" content="http://s3-eu-west-1.amazonaws.com/jacando-user-assets/profile-pic/large/1465467193_170.png"/>
+                          <meta property="og:image:secure_url" content="https://s3-eu-west-1.amazonaws.com/jacando-user-assets/profile-pic/large/1465467193_170.png"/>
+
+
+
+
+
+                <meta name="description" content="Pier 14 verbindet Genuss, Mode und Lifestyle an den schönsten Orten der Ostseeküste. Für unsere hochwertige Gastronomie in der Villa Gruner in Zinnowitz suchen wir ab sofort motivierte und professionelle Restaurantfachleute und Servicekräfte (m/w).    Deine Aufgaben:    Professionelle und herzliche Bedienung unserer Gäste  Fundierte Beratung zu unseren Getränken, Speisen und Deli-Produkten  Kompetentes Präsentieren und Servieren unserer Getränke und Speisen              Dein Profil:    Erfahrung in Gastronomie und Service  Hohes Servicebewusstsein und ausgeprägte Kundenorientierung  Offener und herzlicher Umgang mit Gästen und Kollegen  Eigenverantwortliche und zuverlässige Arbeitsweise  Teamfähigkeit und Flexibilität        Wir bieten Dir:    Arbeit in einem dynamischen und motivierten Team  Fachliche und persönliche Entwicklungsmöglichkeiten  Faires Vergütungsmodell   Flexible Arbeitszeiten   Weitere betriebliche Zusatzleistungen und Vergünstigungen    "/>
+                <meta property="og:description" content="Pier 14 verbindet Genuss, Mode und Lifestyle an den schönsten Orten der Ostseeküste. Für unsere hochwertige Gastronomie in der Villa Gruner in Zinnowitz suchen wir ab sofort motivierte und professionelle Restaurantfachleute und Servicekräfte (m/w).    Deine Aufgaben:    Professionelle und herzliche Bedienung unserer Gäste  Fundierte Beratung zu unseren Getränken, Speisen und Deli-Produkten  Kompetentes Präsentieren und Servieren unserer Getränke und Speisen              Dein Profil:    Erfahrung in Gastronomie und Service  Hohes Servicebewusstsein und ausgeprägte Kundenorientierung  Offener und herzlicher Umgang mit Gästen und Kollegen  Eigenverantwortliche und zuverlässige Arbeitsweise  Teamfähigkeit und Flexibilität        Wir bieten Dir:    Arbeit in einem dynamischen und motivierten Team  Fachliche und persönliche Entwicklungsmöglichkeiten  Faires Vergütungsmodell   Flexible Arbeitszeiten   Weitere betriebliche Zusatzleistungen und Vergünstigungen    "/>
+
+
+        <meta name="keywords" content="Stellenangebote,Kühlungsborn &amp; Insel Usedom,Mecklenburg-Vorpommern,Job"/>
+
+
+<meta property="og:site_name" content="Gert Griehl GmbH | Stellenangebote"/>
+
+
+
+
+
+
+
+        <title> Restaurantfachleute und Servicekräfte (m/w) | Kühlungsborn &amp; Insel Usedom  | Gert Griehl GmbH </title>
+
+    <meta property="og:title" content="Restaurantfachleute und Servicekräfte (m/w) | Kühlungsborn &amp;amp; Insel Usedom "/>
+
+
+
+  <meta content="authenticity_token" name="csrf-param"/>
+<meta content="vRUd68CDYrmSllFVx2S3x7Cb2vYs1VFKG397iZ38U9c=" name="csrf-token"/>
+
+<script>
+function imgError(element, image)
+{
+  $(element).attr("src", "/assets/pier14.ico");
+}
+</script>
+
+ <style>
+.hvr-overline-from-left:before {
+
+  background: #001b35;
+
+}
+
+.fix_head_line:before
+{
+  background: #001b35;
+}
+</style>
+
+
+<style type="text/css">
+   @font-face {
+                font-family: "Verdana";
+                src: url("/assets/Verdana.ttf");
+                src: url("/assets/Verdana.ttf") format("truetype");
+            }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <style type="text/css">
+
+            @font-face {
+                font-family: "OpenSansRegular";
+                src: url("/assets/OpenSans-Regular.eot");
+                src: url("/assets/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+                     url("/assets/OpenSans-Regular.woff") format("woff"),
+                     url("/assets/OpenSans-Regular.ttf") format("truetype"),
+                     url("/assets/OpenSans-Regular.svg##OpenSansRegular") format("svg");
+                font-style: normal;
+            }
+            @font-face {
+                font-family: "OpenSansBold";
+                src: url("/assets/OpenSans-Bold.otf"),  url("/assets/OpenSans-Bold.ttf") format("truetype");
+                font-style: normal;
+            }
+
+
+                body, input, textarea, select, button, .pure-g [class*=pure-u], .pure-g{
+                        font-family: "Arial" !important;
+                }
+        </style>
+
+
+
+ <style type="text/css">
+.fade.in {
+opacity: 1;
+}
+</style>
+
+
+  <link href="/assets/v2/font-awesome.css" rel="stylesheet"/>
+
+
+<script type="text/javascript">
+window.smartlook||(function(d) {
+var o=smartlook=function()
+
+{ o.api.push(arguments)}
+,h=d.getElementsByTagName('head')[0];
+var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+})(document);
+smartlook('init', 'ae261676371fe95e24944e75098fc4686c171264');
+</script>
+</head>
+
+
+
+    <link href="/assets/v2/jquery.reject.css" rel="stylesheet"/>
+    <style type="text/css">
+      #jr_inner {
+          border-radius: 6px;
+      }
+      #jr_inner p {
+          margin-bottom: 10px;
+      }
+      #jr_header, #jr_inner, #jr_inner li a {
+          font-family: "Helvetica Condensed" !important;
+          font-size: 14px !important;
+      }
+      #jr_header {
+          font-size: 18px !important;
+      }
+    </style>
+    <body class="body-color" id="pier14" style="background-color:#F5ECD3;">
+<span id="browser-detection-title" class="none">Lieber User, Ihr Browser ist veraltet!</span>
+  <span id="browser-detection-p-1" class="none">Ihr Browser scheint nicht mehr aktuell zu sein, und es ist vielleicht nicht vollständig mit unserer Website kompatibel. Um die beste Erfahrung zu garantieren, benutzen Sie bitte einen anderen Browser oder aktualisieren Sie auf eine neuere Version mit den folgenden Links:</span>
+  <span id="browser-detection-continue" class="none">Weiter ohne Aktualisierung</span>
+  <span id="browser-detection-p-2" class="none">Bitte beachten Sie, dass, wenn Sie ohne Aktualisierung fortfahren, Ihre Erfahrung mit jacando möglicherweise nicht optimal ist.</span>
+<div class="modal_overlay none"/>
+<div id="fb-root"/>
+  <input type="hidden" id="lang_country_code" value="de"/>
+<input type="hidden" id="lang_code" value="de"/>
+
+
+
+  <input type="hidden" id="partner_name" value="pier14"/>
+
+
+<input type="hidden" id="default_country_code" value="de"/>
+
+
+
+          <input type="hidden" id="selected_job_offline" value="7L6rnMmC"/>
+
+                  <header>
+
+                      <!-- for mobile page view -->
+                        <div class="pure-g mobile">
+        <div class="pure-u-21-24 partner_logo_div">
+            <a class=" text-color no-decoration" href="javascript:void(NonSeoClick('/de/de/'))">
+
+                            <img class="border-radius" src="https://s3-eu-west-1.amazonaws.com/jacando-user-assets/partner_logos/pier14-logo.png" height="40" alt="Gert Griehl GmbH"/>
+            </a>
+        </div>
+	<div class="pure-u-3-24 medium-text right-align" id="menu"><img alt="jacando Menu" class="menu-btn" src="/assets/v2/menu-icon-black.png" height="30" width="30"/></div>
+</div>
+
+
+
+<div class="navigation-menu transition medium-text">
+    <div class="shadow pure-u text-color white scroll-y inner-nav">
+
+    <ul class="list-style-none mob-right-ul">
+
+
+
+
+
+
+                <li class="dropdown-li mobile-login relative"><a href="javascript:void(0)" class="list-link large-text text-color bold">Login</a>
+                </li>
+
+            <div class="dropdown-box position-absolute white hide &#10;    border-radius mobile_new_drop_down_login login_box " style="  width:300px; left: -314px;background:#FFF !important;top:5px">
+                    <form name="mobile_new_login_form" id="mobile_new_login_form" method="POST" class="login_box" onsubmit="return false">
+
+    <input type="hidden" value="0" name="tageswoche" id="mobile_new_login_form_tageswoche"/>
+
+
+
+
+    <div class="pure-u-24-24 login_box pdng-1em">
+        <input type="email" name="username" placeholder="E-Mail" id="mobile_new_login_form_email" class="width100 box-sizing required email login_box"/>
+    </div>
+    <div class="pure-u-24-24 login_box">
+        <input type="password" name="password" placeholder="Passwort" id="mobile_new_login_form_password" class="width100 box-sizing required login_box"/>
+    </div>
+    <div class="pure-u-24-24 login_box" id="mobile_new_login_form_rem_me">
+        <div class="pure-g mrg-t1em">
+            <div class="pure-u-14-24 none">
+                <input type="checkbox" checked="checked" id="mobile_new_login_formpopup-remember-checkbox" name="remember_me" value="true"/>
+                <label for="mobile_new_login_formpopup-remember-checkbox"><span class="small-text">Angemeldet bleiben</span></label>
+            </div>
+            <div class="pure-u-10-24 right-align">
+                    <a href="javascript:void(0)" class="not-registratered black-text small-text none">Neu registrieren?</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pure-g login_box">
+    <div class="pure-u-7-24 pdng-1em">
+
+
+        <div class="pure-g">
+
+
+            <div id="mobile_new_login_form_not_tages">
+
+            <div class="pure-u-12-24 none">
+                    <a href="javascript:void(facebookloginpopup('mobile_new_login_form'))" style="vertical-align:top;"><img alt="Facebook icon" src="/assets/icons/f_square.png" width="40"/></a>
+            </div>
+            <div class="pure-u-12-24 none">
+                    <div class="gSignInWrapper">
+                            <div id="mobile_new_login_form_google_sign" class="customGPlusSignIn" onclick="changeuserclick('mobile_new_login_form');">
+                             <img alt="Google icon" src="/assets/icons/g_square.png" width="40"/>
+                            </div>
+                    </div>
+            </div>
+
+            <!--
+            <div class='pure-u-24-24 '>
+
+
+                        <a href="http://www.jacando.com/de/de/pages/xing_login?subdomain=pier14" style="vertical-align:top;"><img src="/assets/v2/xing_de.png" class='width100 mrg-t10px' /></a>
+            </div>
+            -->
+
+            </div>
+            <!-- login_button_sso
+            <div id='mobile_new_login_form_tages' class="none">
+                <div class="pure-u-1">
+                    <a href='javascript:void(ChangeJacandoLogin("mobile_new_login_form"))'>Use jacando login</a>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+
+    <div class="pure-u-17-24 login_box  right-align">
+     <div class="pure-g">
+         <div class="pure-u-16-24">
+
+         </div>
+         <div class="pure-u-8-24">
+             <button id="login" class="button login_box" onclick="PostLogin('mobile_new_login_form')">Login</button>
+         </div>
+     </div>
+
+    </div>
+    <div class="pure-u-1 right-align">
+                <a href="javascript:void(0)" class="forgot-password text-color  login_box no-decoration underline_hover small-text">Passwort vergessen?</a>
+    </div>
+    </div>
+    <div class="response_loader pure-u-24-24"/>
+
+</form>
+
+
+<script>
+$(function(){
+    $("#mobile_new_login_form").validate({
+         errorPlacement: function(error, element){
+                if (element.attr("name") == "tagescheck")
+                {
+                    error.appendTo('#category_error_space');
+                    $('.tages_error').css({"color": "#F99C25"});
+                }
+                else if (element.attr("name") == "tagescheck_agree")
+                {
+                    error.appendTo('#category_error_space');
+                    $('.tages_error_agree').css({"color": "#F99C25"});
+                }
+                else
+                {
+                    error.insertAfter(element);
+                }
+            },
+            rules:{
+                "tagescheck":{
+                    required: function(element){
+                        if($('#mobile_new_login_form_tageswoche').val() == "1")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                },
+                "tagescheck_agree":{
+                    required: function(element){
+                        if($('#mobile_new_login_form_tageswoche').val() == "1")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+        });
+})
+    $('.apply-forgot-password').on('click', function(){
+        $('.apply-forgot-password-form, .apply-forgot-password-form-account').removeClass('hide');
+        $('#login_apply_form_div').addClass('hide');
+    });
+
+
+$("#mobile_new_login_form_password").keyup(function(event) {
+    debugger;
+    if (event.keyCode === 13) {
+        $("#login").click();
+    }
+});
+
+</script>
+
+                  <div class=" arrow-right position-absolute"/>
+
+                   <div class="pure-g forgot-password-form hide margin-auto">
+                          <form name="mobile_partner_forgot_password_form" id="mobile_partner_forgot_password_form" method="POST" onsubmit="return CheckVaidation(&quot;mobile_partner_forgot_password_form&quot;,&quot;&quot;,&quot;/session/recover_password&quot;, &quot;true&quot;,&quot;POST&quot;,&quot;true&quot;)">
+<input type="hidden" value="mobile_partner_forgot_password_form"/>
+    <div class="pure-u-24-24 mrg-t1em medium-text">
+    	Bitte E-Mail-Adresse eingeben.
+    </div>
+    <div class="pure-u-24-24 pdng-1em">
+        <input type="email" name="email" placeholder="E-Mail" class="width100 box-sizing required email" title=" "/>
+    </div>
+    <div class="pure-u-24-24 right-align">
+        <button class="button">Absenden</button>
+    </div>
+    <div class="response_loader pure-u-24-24"/>
+
+</form>
+ <div class="none success_message pure-u-1" id="mobile_partner_forgot_password_form_ui_message">
+    <div class="success_text medium-text">Eine E-Mail zur Wiederherstellung des Passworts wurde versandt.</div>
+</div>
+                      </div>
+</div>
+
+
+
+
+
+                    <li class="dropdown-li white-space"><a href="javascript:void(NonSeoClick('/de/de/job-suche'))" class="list-link large-text text-color">Jobs suchen</a></li>
+
+
+
+
+
+
+
+
+
+
+                <li class="dropdown-li  white-space none">
+                            <a href="mailto:pier14@jacando.com" target="_blank" class="list-link large-text text-color">Support</a>
+
+                </li>
+
+
+
+
+
+
+
+
+
+
+    </ul>
+    </div>
+</div>
+                      <!-- for mobile page view -->
+
+                    <div class="desktop inline-block margin-auto height100 max-width1024 position-relative">
+
+                    <div class="position-absolute scroll_head_text">
+                       <a href="javascript:void(scrollToAnchor(&quot;pricing-score&quot;))" class="text-color no-decoration hvr-border-fade-thin pdng-8px">14-day free trial</a>
+                    </div>
+
+                    <div class="pure-g">
+                            <div class="pure-u-8-24">
+
+                                    <div class="inline-block float-left box edit_border_radius height100 partner_logo_div">
+
+                                          <a href="/de/de/">
+                                          <img class="edit_border_radius border-radius" src="https://s3-eu-west-1.amazonaws.com/jacando-user-assets/partner_logos/pier14-logo.png" alt="Gert Griehl GmbH"/>
+                                        </a>
+
+                                    </div>
+
+                            </div>
+
+                              <div class="pure-u-16-24 pdng-l30">
+                                  <div class="right-align height100 ">
+
+
+
+
+
+
+
+<div class="box inline-block vertical-align-top  position-relative" id="header-pier14">
+
+
+    <div class="pdngem" id="header_links">
+        <div class="inline-block">
+
+                <form name="" action="/de/de/job-suche" method="GET">
+                    <input type="job_title" name="text" class="input-text input-background title-color border-radius pdng-5px width100 box-sizing edit_border_radius" id="baf_jobs_title_top" placeholder="Suchbegriff eingeben" value=""/>
+                </form>
+
+        </div>
+<!--
+
+-->
+
+        <div class="inline-block pdng-l14">
+                <button class="button header-login hvr-shrink edit_border_radius special_button">Login</button>
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div class="dropdown-box position-absolute white hide &#10;    border-radius dropdown-box-login login_min_width" style="z-index:1111;width:200px;right:0px;left:auto;border :1px solid #001b35">
+        <div class="arrow-up-login arrow-up  position-absolute"/>
+        <div class="pure-g login-form">
+            <form name="login_form" id="login_form" method="POST" class="login_box" onsubmit="return false">
+
+    <input type="hidden" value="0" name="tageswoche" id="login_form_tageswoche"/>
+
+
+
+
+    <div class="pure-u-24-24 login_box pdng-1em">
+        <input type="email" name="username" placeholder="E-Mail" id="login_form_email" class="width100 box-sizing required email login_box"/>
+    </div>
+    <div class="pure-u-24-24 login_box">
+        <input type="password" name="password" placeholder="Passwort" id="login_form_password" class="width100 box-sizing required login_box"/>
+    </div>
+    <div class="pure-u-24-24 login_box" id="login_form_rem_me">
+        <div class="pure-g mrg-t1em">
+            <div class="pure-u-14-24 none">
+                <input type="checkbox" checked="checked" id="login_formpopup-remember-checkbox" name="remember_me" value="true"/>
+                <label for="login_formpopup-remember-checkbox"><span class="small-text">Angemeldet bleiben</span></label>
+            </div>
+            <div class="pure-u-10-24 right-align">
+                    <a href="javascript:void(0)" class="not-registratered black-text small-text none">Neu registrieren?</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pure-g login_box">
+    <div class="pure-u-7-24 pdng-1em">
+
+
+        <div class="pure-g">
+
+
+            <div id="login_form_not_tages">
+
+            <div class="pure-u-12-24 none">
+                    <a href="javascript:void(facebookloginpopup('login_form'))" style="vertical-align:top;"><img alt="Facebook icon" src="/assets/icons/f_square.png" width="40"/></a>
+            </div>
+            <div class="pure-u-12-24 none">
+                    <div class="gSignInWrapper">
+                            <div id="login_form_google_sign" class="customGPlusSignIn" onclick="changeuserclick('login_form');">
+                             <img alt="Google icon" src="/assets/icons/g_square.png" width="40"/>
+                            </div>
+                    </div>
+            </div>
+
+            <!--
+            <div class='pure-u-24-24 '>
+
+
+                        <a href="http://www.jacando.com/de/de/pages/xing_login?subdomain=pier14" style="vertical-align:top;"><img src="/assets/v2/xing_de.png" class='width100 mrg-t10px' /></a>
+            </div>
+            -->
+
+            </div>
+            <!-- login_button_sso
+            <div id='login_form_tages' class="none">
+                <div class="pure-u-1">
+                    <a href='javascript:void(ChangeJacandoLogin("login_form"))'>Use jacando login</a>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+
+    <div class="pure-u-17-24 login_box  right-align">
+     <div class="pure-g">
+         <div class="pure-u-16-24">
+
+         </div>
+         <div class="pure-u-8-24">
+             <button id="login" class="button login_box" onclick="PostLogin('login_form')">Login</button>
+         </div>
+     </div>
+
+    </div>
+    <div class="pure-u-1 right-align">
+                <a href="javascript:void(0)" class="forgot-password text-color  login_box no-decoration underline_hover small-text">Passwort vergessen?</a>
+    </div>
+    </div>
+    <div class="response_loader pure-u-24-24"/>
+
+</form>
+
+
+<script>
+$(function(){
+    $("#login_form").validate({
+         errorPlacement: function(error, element){
+                if (element.attr("name") == "tagescheck")
+                {
+                    error.appendTo('#category_error_space');
+                    $('.tages_error').css({"color": "#F99C25"});
+                }
+                else if (element.attr("name") == "tagescheck_agree")
+                {
+                    error.appendTo('#category_error_space');
+                    $('.tages_error_agree').css({"color": "#F99C25"});
+                }
+                else
+                {
+                    error.insertAfter(element);
+                }
+            },
+            rules:{
+                "tagescheck":{
+                    required: function(element){
+                        if($('#login_form_tageswoche').val() == "1")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                },
+                "tagescheck_agree":{
+                    required: function(element){
+                        if($('#login_form_tageswoche').val() == "1")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+        });
+})
+    $('.apply-forgot-password').on('click', function(){
+        $('.apply-forgot-password-form, .apply-forgot-password-form-account').removeClass('hide');
+        $('#login_apply_form_div').addClass('hide');
+    });
+
+
+$("#login_form_password").keyup(function(event) {
+    debugger;
+    if (event.keyCode === 13) {
+        $("#login").click();
+    }
+});
+
+</script>
+
+        </div>
+        <div class="pure-g registration-form hide">
+            <form name="register_form" class="mrg-t1em" id="register_form" method="POST" onsubmit="return CheckVaidation(&quot;register_form&quot;,&quot;&quot;,&quot;/users/create&quot;, &quot;true&quot;,&quot;POST&quot;,&quot;true&quot;, &quot;&quot;, CheckApplyRegistrationCallBack)">
+    <input type="hidden" value="register_form"/>
+    <div class="pure-g">
+
+
+
+        <span class="large-text title-color bold">Registrieren</span>
+        <input type="hidden" value="yes" name="is_application" id="is_application"/>
+        <input type="hidden" value="7L6rnMmC" name="register_job_code" id=""/>
+
+
+
+
+
+            <input type="hidden" name="user[reference]" value="Sonstige (bitte angeben)"/>
+            <input type="hidden" name="reference_other_txt" value="pier14"/>
+
+            <input type="hidden" name="user[jobs_free]" value="1"/>
+
+
+
+    <div class="pure-u-24-24 ">
+        <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+            <input type="email" name="user[email]" placeholder="E-Mail" class="width100 box-sizing required email" title=" "/>
+        </div>
+    </div>
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="password" name="user[password]" id="reg_pass_text_register_form" placeholder="Passwort" title=" " class="width100 box-sizing required"/>
+    </div>
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="password" name="user[password_confirmation]" placeholder="Passwort bestätigen" title=" " class="width100 box-sizing required" equalto="#reg_pass_text_register_form"/>
+    </div>
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="text" name="user[first_name]" placeholder="Vorname" title=" " class="width100 box-sizing required"/>
+    </div>
+
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="text" name="user[last_name]" placeholder="Nachname" title=" " class="width100 box-sizing required"/>
+    </div>
+
+    <div class="pure-u-24-24 pdngem_all text-color gotcha_div">
+
+            <label for="gotcha_response_MyGotcha-b6d767d2f8ed5d21a44b0e5886680cb9">Was ist 11 + 11? *</label>
+<input id="gotcha_response_MyGotcha-b6d767d2f8ed5d21a44b0e5886680cb9" name="gotcha_response[MyGotcha-b6d767d2f8ed5d21a44b0e5886680cb9]" type="text"/>
+
+    </div>
+
+
+
+    </div>
+
+    <div class="pure-g pdng-1em">
+
+
+        <div class="pure-u-12-24  &#10;">
+            <div class="pure-g">
+
+
+
+
+
+
+
+
+                <div class="pure-u-8-24 none">
+                    <a href="javascript:void(facebookloginpopup('register_form'))" style="vertical-align:top;"><img src="/assets/icons/f_square.png" alt="f_square" width="50"/></a>
+                </div>
+                <div class="pure-u-8-24 none">
+                    <div class="gSignInWrapper">
+                                <div id="register_form_google_sign" class="customGPlusSignIn" onclick="changeuserclick('register_form');">
+                         <img src="/assets/icons/g_square.png" width="50" alt="g_square"/>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!--
+                <div class='pure-u-8-24'>
+                    <a href="javascript:void(jacando_login('register_form'))" style="vertical-align:top;"><img src="/assets/icons/jacando_square.png" width="47px" /></a>
+                </div>-->
+
+
+
+            </div>
+        </div>
+        <div class="pure-u-12-24 right-align  &#10;">
+                <input type="submit" class="button hvr-shrink" value="Anmelden"/>
+
+                <a href="javascript:void(0)" class="not-registratered black-text small-text back-login ">Login</a>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="response_loader pure-u-24-24"/>
+
+
+
+</form>
+
+
+ <div class="none success_message pure-u-1" id="register_form_ui_message">
+    <div class="success_text">Anmeldung erfolgreich. Eine E-Mail ist zur Aktivierung des Benutzerkontos gesendet worden. (Bitte sicherheitshalber die Spam-Einstellungen prüfen.)</div>
+</div>
+
+
+
+
+
+
+        </div>
+        <div class="pure-g forgot-password-form hide">
+            <form name="forgot_password_form" id="forgot_password_form" method="POST" onsubmit="return CheckVaidation(&quot;forgot_password_form&quot;,&quot;&quot;,&quot;/session/recover_password&quot;, &quot;true&quot;,&quot;POST&quot;,&quot;true&quot;)">
+<input type="hidden" value="forgot_password_form"/>
+    <div class="pure-u-24-24 mrg-t1em medium-text">
+    	Bitte E-Mail-Adresse eingeben.
+    </div>
+    <div class="pure-u-24-24 pdng-1em">
+        <input type="email" name="email" placeholder="E-Mail" class="width100 box-sizing required email" title=" "/>
+    </div>
+    <div class="pure-u-24-24 right-align">
+        <button class="button">Absenden</button>
+    </div>
+    <div class="response_loader pure-u-24-24"/>
+
+</form>
+ <div class="none success_message pure-u-1" id="forgot_password_form_ui_message">
+    <div class="success_text medium-text">Eine E-Mail zur Wiederherstellung des Passworts wurde versandt.</div>
+</div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+                                      </div>
+
+                              </div>
+
+                      </div>
+
+                    </div>
+                  </header>
+
+
+
+
+
+
+  <main class="">
+
+
+      <div class="overlay position-absolute hide">
+
+        <div class="login-box-mobile position-absolute pure-g text-color white  border-radius" style="border :1px solid #001b35">
+          <div class="pure-g login-form margin-auto">
+            <form name="mobile_login_form" id="mobile_login_form" method="POST" class="login_box" onsubmit="return false">
+
+    <input type="hidden" value="0" name="tageswoche" id="mobile_login_form_tageswoche"/>
+
+
+
+
+    <div class="pure-u-24-24 login_box pdng-1em">
+        <input type="email" name="username" placeholder="E-Mail" id="mobile_login_form_email" class="width100 box-sizing required email login_box"/>
+    </div>
+    <div class="pure-u-24-24 login_box">
+        <input type="password" name="password" placeholder="Passwort" id="mobile_login_form_password" class="width100 box-sizing required login_box"/>
+    </div>
+    <div class="pure-u-24-24 login_box" id="mobile_login_form_rem_me">
+        <div class="pure-g mrg-t1em">
+            <div class="pure-u-14-24 none">
+                <input type="checkbox" checked="checked" id="mobile_login_formpopup-remember-checkbox" name="remember_me" value="true"/>
+                <label for="mobile_login_formpopup-remember-checkbox"><span class="small-text">Angemeldet bleiben</span></label>
+            </div>
+            <div class="pure-u-10-24 right-align">
+                    <a href="javascript:void(0)" class="not-registratered black-text small-text none">Neu registrieren?</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="pure-g login_box">
+    <div class="pure-u-7-24 pdng-1em">
+
+
+        <div class="pure-g">
+
+
+            <div id="mobile_login_form_not_tages">
+
+            <div class="pure-u-12-24 none">
+                    <a href="javascript:void(facebookloginpopup('mobile_login_form'))" style="vertical-align:top;"><img alt="Facebook icon" src="/assets/icons/f_square.png" width="40"/></a>
+            </div>
+            <div class="pure-u-12-24 none">
+                    <div class="gSignInWrapper">
+                            <div id="mobile_login_form_google_sign" class="customGPlusSignIn" onclick="changeuserclick('mobile_login_form');">
+                             <img alt="Google icon" src="/assets/icons/g_square.png" width="40"/>
+                            </div>
+                    </div>
+            </div>
+
+            <!--
+            <div class='pure-u-24-24 '>
+
+
+                        <a href="http://www.jacando.com/de/de/pages/xing_login?subdomain=pier14" style="vertical-align:top;"><img src="/assets/v2/xing_de.png" class='width100 mrg-t10px' /></a>
+            </div>
+            -->
+
+            </div>
+            <!-- login_button_sso
+            <div id='mobile_login_form_tages' class="none">
+                <div class="pure-u-1">
+                    <a href='javascript:void(ChangeJacandoLogin("mobile_login_form"))'>Use jacando login</a>
+                </div>
+            </div>-->
+        </div>
+    </div>
+
+
+    <div class="pure-u-17-24 login_box  right-align">
+     <div class="pure-g">
+         <div class="pure-u-16-24">
+
+         </div>
+         <div class="pure-u-8-24">
+             <button id="login" class="button login_box" onclick="PostLogin('mobile_login_form')">Login</button>
+         </div>
+     </div>
+
+    </div>
+    <div class="pure-u-1 right-align">
+                <a href="javascript:void(0)" class="forgot-password text-color  login_box no-decoration underline_hover small-text">Passwort vergessen?</a>
+    </div>
+    </div>
+    <div class="response_loader pure-u-24-24"/>
+
+</form>
+
+
+<script>
+$(function(){
+    $("#mobile_login_form").validate({
+         errorPlacement: function(error, element){
+                if (element.attr("name") == "tagescheck")
+                {
+                    error.appendTo('#category_error_space');
+                    $('.tages_error').css({"color": "#F99C25"});
+                }
+                else if (element.attr("name") == "tagescheck_agree")
+                {
+                    error.appendTo('#category_error_space');
+                    $('.tages_error_agree').css({"color": "#F99C25"});
+                }
+                else
+                {
+                    error.insertAfter(element);
+                }
+            },
+            rules:{
+                "tagescheck":{
+                    required: function(element){
+                        if($('#mobile_login_form_tageswoche').val() == "1")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                },
+                "tagescheck_agree":{
+                    required: function(element){
+                        if($('#mobile_login_form_tageswoche').val() == "1")
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                }
+            }
+        });
+})
+    $('.apply-forgot-password').on('click', function(){
+        $('.apply-forgot-password-form, .apply-forgot-password-form-account').removeClass('hide');
+        $('#login_apply_form_div').addClass('hide');
+    });
+
+
+$("#mobile_login_form_password").keyup(function(event) {
+    debugger;
+    if (event.keyCode === 13) {
+        $("#login").click();
+    }
+});
+
+</script>
+
+          </div>
+          <div class="pure-g registration-form hide margin-auto">
+            <form name="mobile_register_form" class="mrg-t1em" id="mobile_register_form" method="POST" onsubmit="return CheckVaidation(&quot;mobile_register_form&quot;,&quot;&quot;,&quot;/users/create&quot;, &quot;true&quot;,&quot;POST&quot;,&quot;true&quot;, &quot;&quot;, CheckApplyRegistrationCallBack)">
+    <input type="hidden" value="mobile_register_form"/>
+    <div class="pure-g">
+
+
+
+        <span class="large-text title-color bold">Registrieren</span>
+        <input type="hidden" value="yes" name="is_application" id="is_application"/>
+        <input type="hidden" value="7L6rnMmC" name="register_job_code" id=""/>
+
+
+
+
+
+            <input type="hidden" name="user[reference]" value="Sonstige (bitte angeben)"/>
+            <input type="hidden" name="reference_other_txt" value="pier14"/>
+
+            <input type="hidden" name="user[jobs_free]" value="1"/>
+
+
+
+    <div class="pure-u-24-24 ">
+        <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+            <input type="email" name="user[email]" placeholder="E-Mail" class="width100 box-sizing required email" title=" "/>
+        </div>
+    </div>
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="password" name="user[password]" id="reg_pass_text_mobile_register_form" placeholder="Passwort" title=" " class="width100 box-sizing required"/>
+    </div>
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="password" name="user[password_confirmation]" placeholder="Passwort bestätigen" title=" " class="width100 box-sizing required" equalto="#reg_pass_text_mobile_register_form"/>
+    </div>
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="text" name="user[first_name]" placeholder="Vorname" title=" " class="width100 box-sizing required"/>
+    </div>
+
+
+    <div class="pure-u-12-24 pure-u-md-12-24 pure-u-sm-24-24 pdngem_all">
+        <input type="text" name="user[last_name]" placeholder="Nachname" title=" " class="width100 box-sizing required"/>
+    </div>
+
+    <div class="pure-u-24-24 pdngem_all text-color gotcha_div">
+
+            <label for="gotcha_response_MyGotcha-9bf31c7ff062936a96d3c8bd1f8f2ff3">Was ist 3 + 12? *</label>
+<input id="gotcha_response_MyGotcha-9bf31c7ff062936a96d3c8bd1f8f2ff3" name="gotcha_response[MyGotcha-9bf31c7ff062936a96d3c8bd1f8f2ff3]" type="text"/>
+
+    </div>
+
+
+
+    </div>
+
+    <div class="pure-g pdng-1em">
+
+
+        <div class="pure-u-12-24  &#10;">
+            <div class="pure-g">
+
+
+
+
+
+
+
+
+                <div class="pure-u-8-24 none">
+                    <a href="javascript:void(facebookloginpopup('mobile_register_form'))" style="vertical-align:top;"><img src="/assets/icons/f_square.png" alt="f_square" width="50"/></a>
+                </div>
+                <div class="pure-u-8-24 none">
+                    <div class="gSignInWrapper">
+                                <div id="mobile_register_form_google_sign" class="customGPlusSignIn" onclick="changeuserclick('mobile_register_form');">
+                         <img src="/assets/icons/g_square.png" width="50" alt="g_square"/>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!--
+                <div class='pure-u-8-24'>
+                    <a href="javascript:void(jacando_login('mobile_register_form'))" style="vertical-align:top;"><img src="/assets/icons/jacando_square.png" width="47px" /></a>
+                </div>-->
+
+
+
+            </div>
+        </div>
+        <div class="pure-u-12-24 right-align  &#10;">
+                <input type="submit" class="button hvr-shrink" value="Anmelden"/>
+
+                <a href="javascript:void(0)" class="not-registratered black-text small-text back-login ">Login</a>
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="response_loader pure-u-24-24"/>
+
+
+
+</form>
+
+
+ <div class="none success_message pure-u-1" id="mobile_register_form_ui_message">
+    <div class="success_text">Anmeldung erfolgreich. Eine E-Mail ist zur Aktivierung des Benutzerkontos gesendet worden. (Bitte sicherheitshalber die Spam-Einstellungen prüfen.)</div>
+</div>
+
+
+
+
+
+
+          </div>
+          <div class="pure-g forgot-password-form hide margin-auto">
+              <form name="mobile_forgot_password_form" id="mobile_forgot_password_form" method="POST" onsubmit="return CheckVaidation(&quot;mobile_forgot_password_form&quot;,&quot;&quot;,&quot;/session/recover_password&quot;, &quot;true&quot;,&quot;POST&quot;,&quot;true&quot;)">
+<input type="hidden" value="mobile_forgot_password_form"/>
+    <div class="pure-u-24-24 mrg-t1em medium-text">
+    	Bitte E-Mail-Adresse eingeben.
+    </div>
+    <div class="pure-u-24-24 pdng-1em">
+        <input type="email" name="email" placeholder="E-Mail" class="width100 box-sizing required email" title=" "/>
+    </div>
+    <div class="pure-u-24-24 right-align">
+        <button class="button">Absenden</button>
+    </div>
+    <div class="response_loader pure-u-24-24"/>
+
+</form>
+ <div class="none success_message pure-u-1" id="mobile_forgot_password_form_ui_message">
+    <div class="success_text medium-text">Eine E-Mail zur Wiederherstellung des Passworts wurde versandt.</div>
+</div>
+          </div>
+
+        </div>
+      </div>
+      <div class="min-height-yield">
+        <script src="https://mozilla.github.io/pdf.js/build/pdf.js"/>
+<link rel="stylesheet" href="/assets/v2/quill.snow.css"/>
+        <link rel="canonical" href="https://pier14.jacando.com/de/de/job/7L6rnMmC"/>
+    <style type="text/css">
+        body, input, textarea, select, button{
+            font-family: "Arial" !important;
+        }
+    </style>
+<input type="hidden" id="clicked_button" value="bottom_apply"/>
+
+
+
+
+
+
+
+            <input type="hidden" id="job_code_job_details" value="7L6rnMmC"/>
+
+            <div style="">
+            	    <style type="text/css">
+  .job_detail_description_text p
+  {
+    margin:0px;
+    padding:0px;
+  }
+    .ql-size-small {
+        font-size: 0.75em;
+    }
+    .ql-size-large {
+      font-size: 1.5em;
+    }
+    .ql-size-huge {
+      font-size: 2.5em;
+    }
+    .job_detail_description_text p.ql-indent-1 {
+      padding-left: 3em;
+    }
+    .job_detail_description_text p.ql-indent-2 {
+      padding-left: 6em;
+    }
+    .job_detail_description_text p.ql-indent-3 {
+      padding-left: 9em;
+    }
+     .job_detail_description_text p.ql-indent-4 {
+      padding-left: 12em;
+    }
+     .job_detail_description_text p.ql-indent-5 {
+      padding-left: 15em;
+    }
+     .job_detail_description_text p.ql-indent-6 {
+      padding-left: 18em;
+    }
+     .job_detail_description_text p.ql-indent-7 {
+      padding-left: 21em;
+    }
+     .job_detail_description_text p.ql-indent-8 {
+      padding-left: 24em;
+    }
+     .job_detail_description_text p.ql-indent-9 {
+      padding-left: 27em;
+    }
+</style>
+<style type="text/css">
+.tabs-menu li.active a {
+    background: none !important;
+    /* border-bottom: 2px solid red; */
+    font-weight: bold;
+    color: #000 !important;
+    border-bottom-width: 2px;
+    border-bottom-color: #001b35;
+    padding-bottom: 9px;
+}
+
+.tabs-menu li a {
+    display: block;
+    padding: 10px;
+    background-color: #999;
+    color: #979b9f !important;
+    text-decoration: none;
+    background: none !important;
+    border-bottom: 1px solid #979b9f;
+    padding-bottom: 10px;
+
+
+}
+
+.tabs-menu li {
+    float: left;
+    margin-right: 0px !important;
+}
+.tab {
+    border: 0px !important;
+}
+.material-switch &gt; input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch &gt; label {
+    cursor: pointer;
+    height: 0px;
+    position: relative;
+    width: 40px;
+}
+
+.material-switch &gt; label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch &gt; label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch &gt; input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch &gt; input[type="checkbox"]:checked + label::after {
+    left: 20px;
+}
+.jobberTags {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.jobberTags li {
+    margin: 0;
+}
+
+.material-switch.disabled &gt; input[type="checkbox"]:checked + label::after
+{
+    background:#EFEFEF;
+}
+.material-switch.disabled &gt; input[type="checkbox"]:checked + label::before
+{
+    background:#EFEFEF;
+}
+</style>
+
+
+
+
+ <script type="text/javascript" src="/assets/v2/clipboard.min.js"/>
+
+
+<div class="wrapper mrg-t83">
+    <div class="content pure-g max-width1024 margin-auto">
+        <!--  jobber side bar starts here  -->
+
+
+
+
+
+<div class="pure-u-1 job-detail-sidedar pure-u-md-8-24  job-detail-sidedar">
+
+
+
+
+                <!--<div class="pure-u-1 pdng-t5 pdng-b10">
+                    <div class="pure-u-1 grey-background border-radius align-center pdng-3px">
+                        <a href="javascript:void(OpenMobileActionLinks('recommend_job_box'))" onclick="FireOpenJobRecommendation();UpdateUrlString('recommend')"  class="list-link"><span class="white-text">
+                                Job empfehlen
+                              </span></a>
+                    </div>
+                </div>-->
+
+
+
+
+
+
+
+
+
+
+
+        <div class="pure-g">
+
+
+
+
+                <div class="pure-u-1">
+                    <div class="pure-u-1 pdng-t5 ">
+                        <div class="pure-u-1 grey-background border-radius edit_border_radius pdng-l10 pdng-3px special_button" style="background-color: #B1311B;">
+                            <a class="list-link block">
+                                <span class="white-text medium-text job_detail_info_box_title_text">
+                                        Mehr Informationen
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pure-u-1 sidebar-box edit_border_radius  " id="sidebar_more_info_2" style="background-color: rgba(245,236,211,1);; padding-top: 5px; padding-bottom: 5px;">
+                        <div class="pure-u-1 align-center job_detail_info_box_text medium-text ">
+                            <div class="text-color left-align" style="background-color: rgba(245,236,211,1);">
+
+
+                                    <div style="">
+                                        <span class="job_detail_footer_text">
+                                            Pier 14 verbindet Mode, Genuss und Lifestyle an den schönsten Orten der Ostseeküste. Unser Konzept umfasst insgesamt 13 Stores im Premium Fashion-und Lifestyle-Bereich. Zu unseren Brands gehören unter anderem Hugo Boss, Drykorn, Closed, Strellson, Stone Island, Parajumpers, High, Schumacher und Liebeskind Berlin.
+                                        </span>
+                                    </div>
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+
+
+          </div>
+
+
+
+
+
+                            <div class="pure-u-1 pdng-t5 pdng-b5 hide_mobile">
+                                <div class="pure-u-1 pdng-l10 pdng-3px  border-radius edit_border_radius support_button">
+
+                                    <a href="mailto:pier14ATjacandoDOTcom" onclick="this.href=this.href&#10;                      .replace(/AT/,'@')&#10;                      .replace(/DOT/,'.')" class="underline_hover medium-text list-link text-color  list-link" style=""><span>Hilfe / Support </span></a>
+                                </div>
+                            </div>
+
+
+            <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <!--  jobber side bar ends here  -->
+
+        <div class="pure-u-1 pure-u-md-16-24 pdng-l30  rightbar">
+                <div class="pure-u-1 ">
+                    <div class="pure-g">
+                        <div class="pure-u-12-24">
+
+                        </div>
+                            <div class="pure-u-12-24 right-align">
+
+                                    <a href="http://pier14.jacando.com" class="list-link underline_hover title-color "><span class="medium-text">Zurück zur Übersicht </span></a>
+                            </div>
+                    </div>
+                </div>
+
+
+
+        <div class="pure-u-1 pdng-t5 pdng-b5" data-job_url="/de/de/job/7L6rnMmC">
+
+
+    <div class="pure-g  edit_border_radius position-relative " style="background-color: rgba(245,236,211,1);">
+
+
+
+
+
+
+                <div class="pure-u-1 pure-u-md-20-24 pure-u-sm-20-24 pdng-l14" style="">
+
+            <h1 class="home_page_h1 bold block medium-text job_detail_job_title">
+                <span class="list-link title-color" style="color:#B1311B !important">
+                            Restaurantfachleute und Servicekräfte (m/w)<span>
+                </span>
+            </span></h1>
+
+
+
+            <div class="text-color xs-small-text" style="color:#B1311B">
+
+            <span class=" dekstop">
+            </span>
+                <span class=" block job_detail_subtitle_text">
+
+
+                                        in   <span class="city_snippet">Kühlungsborn &amp; Insel Usedom </span>
+                                            (Mecklenburg-Vorpommern)
+
+
+                </span>
+
+
+
+
+    </div>
+
+
+
+
+
+</div>
+
+
+            <div class="pure-u-4-24 pure-u-md-3-24 pure-u-sm-4-24 chf">
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+                                <div class="" style="position:relative">
+                                    <a href="/de/de/job/render_job_detail_as_pdf?code=7L6rnMmC" target="_blank" style="position: absolute;    right: 0px;    top: 0px;">
+                                        <img src="/assets/icons/print.png" width="20px"/>
+                                    </a>
+                                </div>
+
+
+
+                 <style type="text/css">
+     .ql-editor
+     {
+        white-space: normal !important;
+     }
+ </style>
+ <div class="pure-u-1 pdng-t5">
+
+
+                <div class="pure-u-1 job-card edit_border_radius" style="background-color: rgba(245,236,211,1)">
+
+
+
+
+                    <div class=" none pure-u-1 pdng-b5 job-description-title position-relative job_detail_description_title_text" onclick="UpdateUrlString('description')">
+
+
+                            <div class="position-absolute toggle-arrow" style="border-top: 10px solid #001A39 !important;"/>
+                        <span class="medium-text title-color bold" style="color: #001A39 !important">Beschreibung</span>
+                    </div>
+
+
+
+                    <div class="pure-u-1 pdng-t5 job-description ql-editor pdng-lr10 ">
+
+
+
+                        <span class="text-color medium-text job_detail_description_text" style="color:#001A39">
+
+
+
+                            Pier 14 verbindet Genuss, Mode und Lifestyle an den schönsten Orten der Ostseeküste. Für unsere hochwertige Gastronomie in der Villa Gruner in Zinnowitz suchen wir ab sofort motivierte und professionelle <b>Restaurantfachleute und Servicekräfte (m/w)</b>.<br/><p><i>Deine Aufgaben:</i><br/></p><ul><li><span style="word-spacing:">Professionelle und herzliche Bedienung unserer Gäste</span></li><li><span style="word-spacing:">Fundierte Beratung zu unseren Getränken, Speisen und Deli-Produkten</span></li><li><span style="word-spacing:">Kompetentes Präsentieren und Servieren unserer Getränke und Speisen      </span><br/></li></ul><p/><br/><p><i>Dein Profil:</i><br/></p><ul><li><span style="word-spacing:">Erfahrung in Gastronomie und Service</span></li><li><span style="word-spacing:">Hohes Servicebewusstsein und ausgeprägte Kundenorientierung</span></li><li><span style="word-spacing:">Offener und herzlicher Umgang mit Gästen und Kollegen</span></li><li><span style="word-spacing:">Eigenverantwortliche und zuverlässige Arbeitsweise</span></li><li><span style="word-spacing:">Teamfähigkeit und Flexibilität</span><br/></li></ul><p/><br/><p><i>Wir bieten Dir:</i><br/></p><ul><li><span style="word-spacing:">Arbeit in einem dynamischen und motivierten Team</span></li><li><span style="word-spacing:">Fachliche und persönliche Entwicklungsmöglichkeiten</span></li><li><span style="word-spacing:">Faires Vergütungsmodell</span><br/></li><li><span style="word-spacing:">Flexible Arbeitszeiten</span><br/></li><li><span style="word-spacing:">Weitere betriebliche Zusatzleistungen und Vergünstigungen</span><br/></li></ul><p/>
+
+
+                        </span>
+
+
+
+
+                    </div>
+
+
+                </div>
+            </div>
+
+
+<script>
+
+
+function inIframe () {
+    try {
+        return window.self !== window.top;
+    } catch (e) {
+        return true;
+    }
+}
+
+
+if (inIframe())
+{
+
+
+
+    // If absolute URL from the remote server is provided, configure the CORS
+    // header on that server.
+    var url = '/de/de/job_application/get_job_pdf_view?file_name=restaurantfachleute_und_servicekrafte_m_w.pdf';
+
+// The workerSrc property shall be specified.
+PDFJS.workerSrc = 'https://mozilla.github.io/pdf.js/build/pdf.worker.js';
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 0.8,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+/**
+ * Get page info from document, resize canvas accordingly, and render page.
+ * @param num Page number.
+ */
+function renderPage(num) {
+  pageRendering = true;
+  // Using promise to fetch the page
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport(scale);
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    // Render PDF page into canvas context
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    // Wait for rendering to finish
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        // New page rendering is pending
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  // Update page counters
+  document.getElementById('page_num').textContent = pageNum;
+  $('#cv_ifrane').hide();
+  $('.paging_pdf').show();
+}
+
+/**
+ * If another page rendering in progress, waits until the rendering is
+ * finised. Otherwise, executes rendering immediately.
+ */
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+/**
+ * Displays previous page.
+ */
+function onPrevPage() {
+  if (pageNum &lt;= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+/**
+ * Displays next page.
+ */
+function onNextPage() {
+  if (pageNum &gt;= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+/**
+ * Asynchronously downloads PDF.
+ */
+PDFJS.getDocument(url).then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  // Initial/first page rendering
+  renderPage(pageNum);
+});
+
+}
+
+</script>
+
+            <div id="apply_anchor"/>
+
+
+
+
+
+                    <div class="pure-u-1 align-center">
+
+
+
+
+
+
+                                                    <button style="" class="button apply-btn width100 orange-background pdngem hvr-shrink medium-text edit_border_radius special_button" id="bottom_apply" onclick="GetIsVerifiedJobber()">Bewerben</button>
+
+
+
+
+                    </div>
+
+
+
+
+
+                            <input type="hidden" id="app_type" value="group_2"/>
+            <div style="margin-top: 15px;">
+            </div>
+
+
+            <!--For mobile apply button-->
+            <div class="pure-u-1 pdng-t5 pdng-b5 hide">
+                <div class="pure-g">
+                        <div class="pure-u-24-24">
+
+
+                                            <button class="button width100 apply-btn orange-background edit_border_radius special_button" id="bottom_apply" onclick="GetIsVerifiedJobber()">Bewerben</button>
+
+
+                        </div>
+
+
+                    <!--<div class='pure-u-2-24 align-center'>
+                        <img src='/assets/v2/share.png' width="32px" onclick="OpenMobileActionLinks('recommend_job_box_mobile')" alt="share-jacando"/>
+                    </div>-->
+                </div>
+            </div>
+
+
+            <div class="pure-u-1 job-apply-form hide" id="job_apply_form_div">
+
+            </div>
+
+            <div class="pure-u-1 " id="agency_register_form">
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="pure-u-1  mrg-b1em mobile" style="background-color: rgba(245,236,211,1)">
+
+
+
+
+
+                <div class="pure-u-1">
+                    <div class="pure-u-1 pdng-t5 ">
+                        <div class="pure-u-1 grey-background border-radius edit_border_radius pdng-l10 pdng-3px special_button" style="background-color: #B1311B;">
+                            <a class="list-link block">
+                                <span class="white-text medium-text job_detail_info_box_title_text">
+                                        Mehr Informationen
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="pure-u-1 sidebar-box edit_border_radius hide " id="mobile_more_info_2" style="background-color: rgba(245,236,211,1);; padding-top: 5px; padding-bottom: 5px;">
+                        <div class="pure-u-1 align-center job_detail_info_box_text medium-text ">
+                            <div class="text-color left-align" style="background-color: rgba(245,236,211,1);">
+
+
+                                    <div style="">
+                                        <span class="job_detail_footer_text">
+                                            Pier 14 verbindet Mode, Genuss und Lifestyle an den schönsten Orten der Ostseeküste. Unser Konzept umfasst insgesamt 13 Stores im Premium Fashion-und Lifestyle-Bereich. Zu unseren Brands gehören unter anderem Hugo Boss, Drykorn, Closed, Strellson, Stone Island, Parajumpers, High, Schumacher und Liebeskind Berlin.
+                                        </span>
+                                    </div>
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+    </div>
+</div>
+
+ <div class="modal_box position-absolute pure-g text-color white border-radius hide" id="modal_box">
+
+          <div class="pure-g">
+                <div class="pure-u-1 sidebar-box " id="recommend_job_box_modal">
+
+
+                    <div class="pure-u-1 pdng-b10">
+                        <span class="large-text title-color bold">Job empfehlen</span>
+                    </div>
+                    <div class="pure-u-1">
+
+                        <textarea name="" id="share_awarded_message_modal" rows="3" class="width100 box-sizing mrg-b1em">Pier 14 verbindet Mode, Genuss und Lifestyle an den schönsten Orten der Ostseeküste. Unser Konzept umfasst insgesamt 13 Stores im Premium Fashion-und Lifestyle-Bereich. Zu unseren Brands gehören unter anderem Hugo Boss, Drykorn, Closed, Strellson, Stone Island, Parajumpers, High, Schumacher und Liebeskind Berlin.</textarea>
+
+                        <div class="pure-g">
+                        <div class="pure-u-18-24">
+                        <a href="#"><img src="/assets/v2/facebook.jpg" onclick="ShareRecommendFacebook('https://www.jacando.com/de/de/job/job_details?code=7L6rnMmC&amp;utm_source=Friends_Code&amp;utm_medium=Recommendation&amp;utm_campaign=Recommendation','modal');FireRecommendedEvent()"/></a>
+                        <a href="#"><img src="/assets/v2/twitter.jpg" onclick="ShareRecommendTwitter('modal');FireRecommendedEvent()"/></a>
+                        <a href="javascript:void(0)" onclick="javascript:window.open('https://plus.google.com/share?url=https://www.jacando.com/de/de/job/job_details?code=7L6rnMmC&amp;utm_source=Friends_Code&amp;utm_medium=Recommendation&amp;utm_campaign=Recommendation',&#10;                                  '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');FireRecommendedEvent();return false;"><img src="/assets/v2/plus-1.jpg"/></a>
+
+                        </div>
+                        <div class="pure-u-6-24 mrg-t1em">
+                            <a href="javascript:void(RemoveUnload('/de/de/job-suche'))" class="button no-decoration"><span>No thanks </span></a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+ </div>
+
+  <div class="modal_box one_click_modal  mobilepopup position-absolute pure-g text-color white border-radius hide" id="basic_process_modal">
+
+        <div id="basic_process_div" class="pure-u-1">
+
+        </div>
+
+ </div>
+
+
+
+  <div class="modal_box mobilepopup position-absolute pure-g text-color white border-radius hide" id="missed_details_popup">
+
+        <div id="missed_details_div" class="pure-u-1">
+
+            <div class="pure-u-1 large-text title-color">Profil vervollständigen</div>
+
+        </div>
+
+ </div>
+
+    <div class="modal_box position-fixed pure-g text-color white border-radius hide" id="failed_modal_box" style="width:60%;">
+      <div class="pure-g" style="width:100%;">
+            <div class="pure-u-1 sidebar-box medium-text" id="">
+                    Ein Fehler ist aufgetreten.
+            </div>
+        </div>
+    </div>
+
+   <div class="modal_box mobilepopup position-absolute pure-g text-color white border-radius hide" id="surveyModalPublic">
+
+        <div id="surveyModalContentPublic" class="pure-u-1">
+
+            <div class="pure-u-1 large-text title-color">Profil vervollständigen</div>
+
+        </div>
+   </div>
+
+    <div class="modal_box position-fixed pure-g text-color white border-radius hide" id="copied_modal_box" style="width:60%;">
+      <div class="pure-g" style="width:100%;">
+            <div class="pure-u-1 sidebar-box medium-text" id="">
+                    Der Link wurde in die Zwischenablage kopiert.
+                    <span id="msg"/>
+            </div>
+        </div>
+    </div>
+
+
+    <input type="hidden" id="from_app" value="0"/>
+
+<script>
+
+$(function(){
+
+
+
+
+
+     $('#sub_accounts').selectric({disableOnMobile: false});
+
+})
+/* window.onbeforeunload = function (e) {
+        var message = "Job empfehlen",
+        e = e || window.event;
+        // For IE and Firefox
+        if (e) {
+          e.returnValue = message;
+          $('.modal_box').removeClass("hide").show();
+          $('.modal_overlay').show();
+        }
+        else
+        {
+
+        // For Safari
+        return message;
+         $('.modal_box').removeClass("hide").show();
+          $('.modal_overlay').show();
+        }
+
+
+     };
+  */
+</script>
+<span id="not_interested_message" class="none">Marking jobs as not interesting, will affect your future job recommendations. Are you sure you want to mark this job as not interesting?</span>
+
+
+ <script type="text/javascript">
+
+    $(function(){
+
+                var clipboard = new Clipboard('.copy-button');
+
+                clipboard.on('success', function(e) {
+                    console.info('Action:', e.action);
+                    console.info('Text:', e.text);
+                    console.info('Trigger:', e.trigger);
+                    $('#copy_success').show();
+                    e.clearSelection();
+                });
+
+                clipboard.on('error', function(e) {
+                    console.error('Action:', e.action);
+                    console.error('Trigger:', e.trigger);
+
+                });
+
+
+
+      })
+/*
+ $('.hover_email').hover(function(){
+    $(this).find("span").hide();
+    $(this).find("a").show();
+ },
+ function(){
+    $(this).find("span").show();
+    $(this).find("a").hide();
+ })*/
+    </script>
+
+
+
+<script type="text/javascript">
+    $(document).delegate("#socail_network_public","change",function(){
+        debugger;
+        if( $('#social_network_container_public').length == 1 ){
+        debugger;
+        var job = '10';
+            SendRequest("DEFAULT", "job_id="+job, "/public_pages/socail_network_button", "data", "POST", "false", "social_network_main_container_public", function(data) {
+            })
+            SendRequest("DEFAULT", "job_id="+job, "/public_pages/socail_network_button", "data", "POST", "false", "social_network_main_container_public_mobile", function(data) {
+            })
+        }else if( $('#socail_network_public').is(":checked") == false){
+        debugger;
+            $('#social_network_main_container_public').addClass('none');
+       }else{
+        debugger;
+            $('#social_network_main_container_public').removeClass('none');
+       }
+
+    })
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        debugger
+        if($('#socail_network_public').is(":checked") == true){
+            var job = '10';
+            SendRequest("DEFAULT", "job_id="+job, "/public_pages/socail_network_button", "data", "POST", "false", "social_network_main_container_public", function(data) {
+                        })
+            SendRequest("DEFAULT", "job_id="+job, "/public_pages/socail_network_button", "data", "POST", "false", "social_network_main_container_public_mobile", function(data) {
+                        })
+        }
+    })
+</script>
+            </div>
+
+
+
+
+
+
+    <script>
+        $(function(){
+            $('#baf_locations_state, #search_country, #search_company').selectric({disableOnMobile: false});
+        })
+    </script>
+
+
+    </div>
+
+
+      <div>
+               <div class=" footer width100" style="width:100%" id="footer">
+                  <div class="content max-width1024 margin-auto pure-g position-relative">
+                     <div class="pure-u-1 position-relative">
+
+                          <p class="footer-text-color terms_small_font" style="font-size:0.8em;">(C) Gert Griehl GmbH powered by <a href="http://www.jacando.com">jacando.com</a> </p>
+
+
+                           <span class="block footer-text-color list-link header-how-to" style="font-size:13px">
+                              <a href="javascript:void($(&quot;#partner_imprint&quot;).slideToggle())" class="underline_hover footer-text-color list-link">Rechtliche Hinweise und Impressum<br/></a>
+                              <span id="partner_imprint" class="none">
+                              Gert Griehl GmbH<br/>
+                              Mühlenstraße 7, 17459 Ückeritz, Deutschland<br/><br/>
+                              Dienste-Anbieter<br/>
+                              jacando AG<br/>
+                              Güterstrasse 213<br/>
+                              4053 Basel<br/>
+                              Schweiz<br/>
+                              <a href="mailto:pier14@jacando.com" class="footer-text-color list-link">pier14@jacando.com</a><br/>
+                                  <a href="/assets/Data_policy_de.pdf" target="_blank" class="footer-text-color list-link">Datenschutz</a>
+                              </span>
+                           </span>
+
+
+
+	<div class="home-language-selector position-absolute mobile-center" onclick="UpdateUrlString('language')" style="top:7px;right:10px">
+
+	<div class="position-absolute white border-radius home-language-selector-box hide">
+
+		<div class="position-absolute lang-footer-arrow-down"/>
+
+
+
+
+		<div class="pure-g pdng-3px" style="font-size: 14px;">
+
+
+
+
+
+
+
+
+
+		</div>
+
+	</div>
+
+
+
+	</div>
+
+
+
+                     </div>
+                  </div>
+                </div>
+
+
+<div class="modal_box position-fixed pure-g text-color white border-radius none" id="create_appointment_modal" style="width:550px">
+  <div class="pure-g">
+    <div class="pure-u-1 sidebar-box medium-text" id="edit_label_div">
+      <script type="text/javascript" src="/assets/v2/jquery.inputmask.bundle.js"/>
+      <form name="" id="create_appointment_modal_form" onsubmit="return create_followup_appointment()" method="post">
+        <input type="hidden" name="" id="" value=""/>
+        <div class="pure-u-1 pdng-t5 pdng-b5">
+          <div class="pure-g job-card white border-radius">
+            <div class="pure-u-1">
+              <span class="title-color bold medium-text">
+                Termin vereinbaren
+              </span>
+            </div>
+            <div class="pure-g" style="margin-top: 10px;">
+              <div class="">
+                <div class="pure-g">
+                  <div class="pure-u-1">
+
+                    <div class="inline-block mrg-b5">
+                      <select name="job_id" id="" onchange="" class="required">
+                        <option value="">Bitte Job auswählen</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="pure-u-1">
+                    <div class="pure-g" id="">
+                      <div class="mrg-b5 pure-u-1">
+                        <input type="text" name="email" class=" box-sizing width100" placeholder="E-Mail"/>
+                      </div>
+                      <div class="mrg-b5 pure-u-1">
+                        <div class="pure-g">
+                          <div class="pure-u-12-24 pdng-r7">
+                            <input type="text" name="date_start" id="date_start" placeholder="Datum (TT.MM.JJJJ)" class="apointment_start_date required dateITA width100  box-sizing" title="Bitte ein gültiges Datum verwenden."/>
+                          </div>
+                          <div class="pure-u-12-24 ">
+                            <input type="text" name="date_end" id="date_end" placeholder="bis Datum (TT.MM.JJJJ)" class="apointment_end_date dateITA  box-sizing width100" title="Bitte ein gültiges Datum verwenden."/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pure-u-1">
+                        <div class="pure-g">
+                          <div class="pure-u-12-24 pdng-r7">
+                            <input type="text" name="date_start_time" class="timepicker box-sizing width100 required" id="" placeholder="Uhrzeit (hh:mm)"/>
+                          </div>
+                          <div class="pure-u-12-24">
+                            <input type="text" name="date_end_time" id="" class="timepicker width100 box-sizing" placeholder="bis Uhrzeit (hh:mm)"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="pure-u-1" style="margin-top: 5px;">
+                        <textarea rows="3" style="resize: none; width: 488px;" name="comment" placeholder="Kommentar"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pure-u-1" style="margin-top: 5px;">
+                <input type="hidden" name="appointment[appointment_type]" value="follow_up"/>
+                <input type="hidden" name="from_modal" value="0"/>
+                <button type="submit" class="button medium-text float-right">Absenden</button>
+                <button type="button" onclick="CloseModal()" class="cancel-grey button medium-text float-right" style="margin-right: 10px;">Abbrechen</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="response_loader"/>
+        <div id=""/>
+      </form>
+      <script/>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  function open_create_appointment_modal() {
+     $('#create_appointment_modal').removeClass("hide").fadeIn();
+     $('.modal_overlay').fadeIn();
+   }
+   function create_followup_appointment() {
+    CheckVaidation("create_appointment_modal_form", "", "/job_application/create_appointment", "", "POST", "false", "",create_followup_appointment_callback);
+    // SendRequest("create_appointment_modal_form", "", "/job_application/create_appointment", "", "post", "false", "");
+    // CloseModal()
+    return false
+   }
+
+   function create_followup_appointment_callback(data, form_id, extra_data, url, show_ui_message, method, validate, ui_place)
+   {
+      try
+      {
+         parsed_data = jQuery.parseJSON(data);
+      }
+      catch(err)
+      {
+         parsed_data = data;
+      }
+
+      delayed_custom_hideLoader(form_id, "load_success", parsed_data["msg"], parsed_data["redirection"]);
+      setTimeout(function() {
+                ApplicationRedirection(location.href);
+            }, 2000)
+   }
+
+  $(function(){
+
+   var i18n = {
+        previousMonth : 'Vormonat',
+        nextMonth     : 'NÃ¤chster Monat',
+        months        : ['Januar','Februar', 'MÃ¤rz','April','Mai','Juni','Juli','August','September','Oktober','November','Dezember'],
+        weekdays      : ['Sonntag','Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag'],
+        weekdaysShort : ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.']
+};
+
+
+    $(".timepicker").inputmask("h:s",{ "placeholder": "hh/mm" });
+    var picker = new Pikaday({ defaultDate: '12.12.1988', i18n: i18n, field: $('.apointment_start_date')[0], format: 'DD.MM.YYYY', onSelect: function() {
+            $('.apointment_end_date').val(this.getMoment().format('DD.MM.YYYY'));
+        }});
+    var picker = new Pikaday({ defaultDate: '12.12.1988', i18n: i18n, field: $('.apointment_end_date')[0], format: 'DD.MM.YYYY'});
+  })
+</script>
+
+      <span id="global_error_message" class="none">Ein Fehler ist aufgetreten.</span>
+      <span id="push_success_message" class="none">Successfully pushed</span>
+      <span id="successful_message" class="none">Erfolgreich</span>
+      <span id="show_more" class="none">Mehr</span>
+      <span id="show_less" class="none">Weniger</span>
+<span id="required_message" class="none">Bitte ausfüllen.</span>
+
+
+
+
+
+
+
+
+
+    <script src="/assets/v2/jquery.validate.js" type="text/javascript"/>
+    <script src="/assets/v2/additional-methods.min.js" type="text/javascript"/>
+    <script src="/assets/v2/moment.js" type="text/javascript"/>
+    <script src="/assets/v2/pikaday.js" type="text/javascript"/>
+    <script src="/assets/v2/jquery.selectric.js" type="text/javascript"/>
+    <script src="/assets/jquery.form.js"/>
+    <script type="text/javascript" src="/assets/v2/jquery.cookie.js"/>
+    <script src="/assets/jquery.history.js" type="text/javascript"/>
+    <script src="/assets/v2/jquery.placeholder.js" type="text/javascript"/>
+
+  <script src="/assets//v2/jquery.Jcrop.min.js" type="text/javascript"/>
+  <script type="text/javascript" src="/assets/v2/jquery.maskedinput-1.2.2-co.min.js"/>
+
+            <link href="/assets/v2/selectric_new.css" media="all" rel="stylesheet" type="text/css"/>
+        <link href="/assets/v2/jRating.jquery.css" media="screen" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="/assets/v2/jRating.jquery.js"/>
+        <script src="/assets//v2/handlebars-v3.0.0.js" type="text/javascript"/>
+        <script src="/assets/v2/jquery.Jcrop.min.js" type="text/javascript"/>
+<link href="/assets/v2/selectric.css" media="all" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="/assets/jquery.form.js"/>
+    <script type="text/javascript" src="/assets/v2/jquery-te-1.4.0.min.js" charset="utf-8"/>
+<link type="text/css" rel="stylesheet" href="/assets/v2/jquery-te-1.4.0.css"/>
+
+
+    <script src="/assets/v2/main.js?2018_01_11" type="text/javascript" charset="utf-8"/>
+
+<!-- Google+ Like button script-->
+<!-- Place this tag after the last +1 button tag. -->
+
+
+
+
+<!-- Google+ Like button script ends here-->
+
+
+
+
+<!-- <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0027/6580.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script> -->
+
+<script type="text/javascript" src="/assets/v2/iframeResizer.contentWindow.min.js"/>
+
+
+
+<script>
+
+$(function(){
+
+
+  $('.lang_select_img').hover(function(){
+    $(this).removeClass("grey-scale");
+  },
+  function(){
+    $(this).addClass("grey-scale");
+  })
+
+  $('.country_hover').hover(function(){
+      id = $(this).data("sid");
+      $('#lang_info_'+id).show();
+      console.log($('#lang_info_'+id));
+  },
+  function(){
+      id = $(this).data("sid");
+      $('#lang_info_'+id).hide();
+  })
+
+    $('.multiple_country_hover').hover(function(){
+        id = $(this).data("sid");
+        $('.multiple_lang_info_'+id).show();
+        console.log($('#lang_info_'+id));
+    },
+    function(){
+        id = $(this).data("sid");
+        $('.multiple_lang_info_'+id).hide();
+    })
+
+
+
+})
+
+</script>
+
+  <script>
+ </script>
+
+
+<script type="text/javascript">
+  var lr = {i: function(c) {
+  var d = document, s = d.body.appendChild(d.createElement('script'));
+  s.onload = s.onreadystatechange = function() {
+  if('loaded' === s.readyState || undefined === s.readyState) { c(); }
+  };
+  // s.src = '//io.leadingreports.de/js/lr-io.js';
+  }};
+  lr.i(function(){
+  lr.io({company:'jacando AG', domain:'jacando.com'});
+  });
+</script>
+
+
+
+
+
+
+
+    <!--Start of Zendesk Chat Script-->
+    <!--
+    <script type="text/javascript">
+    window.$zopim||(function(d,s){var z=$zopim=function(c){
+    z._.push(c)},$=z.s=
+    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+    $.src='https://v2.zopim.com/?1fwl8czP6Qsxidd1lEQlHcJx3ejoGBuC';z.t=+new Date;$.
+    type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+    </script> -->
+    <!--End of Zendesk Chat Script-->
+
+
+    <!-- Start of jacando Zendesk Widget script -->
+    <!--
+    <script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(c){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","jacando.zendesk.com");/*]]>*/</script>-->
+    <!-- End of jacando Zendesk Widget script -->
+
+<!--
+    <script>
+      $zopim(function() {
+        $zopim.livechat.button.setPosition('br');
+        $zopim.livechat.window.setPosition('br');
+      });
+
+      function OpenChat()
+      {
+        location.href = "mailto:support@jacando.com";
+        UpdateUrlString('support')
+      }
+
+    </script>
+    -->
+
+
+<script type="text/javascript">
+    if (location.hostname !== "localhost" &amp;&amp; location.hostname !== "127.0.0.1" ) {
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-31503414-1']);
+        _gaq.push(['_setDomainName', 'pier14.jacando.com']);
+            _gaq.push(['_setCustomVar',
+                1,                   // This custom var is set to slot #1.  Required parameter.
+                'User Country',     // The name acts as a kind of category for the user activity.  Required parameter.
+                'DE'
+              ]);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    }
+  </script>
+
+<!-- <script type="text/javascript">
+adroll_adv_id = "DRPQ36LEDZDEJC2LN76DR6";
+adroll_pix_id = "PTYUS63XA5DITPTHJRF3ZO";
+/* OPTIONAL: provide email to improve user identification */
+/* adroll_email = "username@example.com"; */
+(function () {
+var _onload = function(){
+if (document.readyState && !/loaded|complete/.test(document.readyState))
+{setTimeout(_onload, 10);return}
+if (!window._adroll_loaded){_adroll_loaded=true;setTimeout(_onload, 50);return}
+var scr = document.createElement("script");
+var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+scr.setAttribute('async', 'true');
+scr.type = "text/javascript";
+scr.src = host + "/j/roundtrip.js";
+((document.getElementsByTagName('head') || [null])[0] ||
+document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+};
+if (window.addEventListener)
+{window.addEventListener('load', _onload, false);}
+else
+{window.attachEvent('onload', _onload)}
+}());
+</script> -->
+
+<!-- <script type="text/javascript"> var plantrack=plantrack||[];!function(){for(var t=["init","identify","track"], a=function(t){return function(){plantrack.push([t].concat(Array.prototype.slice.call(arguments,0)))}}, n=0;n<t.length;n++)plantrack[t[n]]=a(t[n])}(),plantrack.load=function(t,a){plantrack._endpoint=t,a&&plantrack.init(a); var n=document.createElement("script");n.type="text/javascript",n.async=!0, n.src="https://app.planhat.com/analytics/plantrack.min.js"; var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(n,r)}; plantrack.load("https://api.planhat.com/analytics/65e3f9c5-6834-4e78-8ca7-6fbfb1c20dca"); </script>
+<script> -->
+
+
+
+<script src="/assets/v2/jquery.reject.js"/>
+</div></main></body>
+</html>
