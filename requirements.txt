@@ -3,7 +3,7 @@ chardet==3.0.4
 cssselect==1.0.3
 fake-useragent==0.1.10
 idna==2.6
-lxml==4.2.1
+lxml==4.6.2
 pyquery==1.4.0
 requests==2.18.4
 selenium==3.12.0
